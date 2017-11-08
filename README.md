@@ -1,0 +1,1 @@
+Material for the course "Quantum Logics", taught at the University of Minho.

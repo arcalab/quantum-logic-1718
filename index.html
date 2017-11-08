@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MFES - Quantum Logics 2017-2018</title>		
+
+	<meta name="description" content="MFES-AC 15/16 website">
+	<meta name="keywords" content="Quantum computing, process calculi, Logics">
+	<meta name="author" content="Luís Soares Barbosa" >
+<!-- 	<base href="http://ac1516.proenca.org/" target="_parent" /> -->
+	
+<!-- 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+  <link href="extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+<!--     AC -->
+    </a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav" id="myTab">
+      <li class="active"><a href="#">Home</a></li>
+  		<li><a href="#programa">Programa</a></li>
+	  	<li><a href="#material">Material de Apoio</a></li>
+	  	<li><a href="#funcionamento">Funcionamento</a></li>
+    </ul>
+  </div>
+</div>
+
+
+ 
+<div class="splash">
+	<h2 class="splash-title">Quantum Logics 2017/18</h2>
+<!-- 	<div class="blue-rect"> -->
+	<h4 class="splash-subtitle">Perfil de Métodos Formais em Engenharia de Software</h4>
+  <h4 class="splash-subtitle"> Dep. Informática, Universidade do Minho</h4>
+  </div>
+
+
+<div id="myTabContent" class="container">
+<div class="bs-component">
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Objectivos</h2>
+
+<p>
+Este curso tem por objectivo o estudo de ...
+</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="programa">Programa resumido</h2>
+
+<ul>
+<li> <strong>Item 1</strong>
+<li> <strong>Item 2</strong> <ul>
+  <li> sub item 1
+  <li> sub item 2
+</ul> 
+<li> <strong>Item 3
+</ul>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="material">Material de apoio</h2>
+
+<h5> Slides </h5>
+<ul>
+<li><a href="slides/QL-1-Intro.pdf">
+    1: Introduction to Quantum Computing</a>
+<li class="faded"><a href="slides/QL-2-Logics.pdf">
+    2: Background - Modal logics</a>
+</ul>
+
+<h5> Exercícios e projectos </h5>
+<ul>
+<li><a href="material/tp1.pdf">
+    Primeiro trabalho - Axiomatização</a>
+</ul>
+
+
+<h5> Links úteis </h5>
+<ul>
+<li><a href="http://arca.di.uminho.pt">Arca website</a>
+</ul>
+
+
+<h5> Bibliografia </h5>
+<ul>
+
+<li><a href="http://mitpress.mit.edu/books/principles-model-checking">
+    Principles Of Model Checking</a>
+    <div class="pdf"> <a class="pdf"
+       href="http://is.ifmo.ru/books/_principles_of_model_checking.pdf">
+    </a></div>
+
+</ul>
+
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="funcionamento">Funcionamento</h2>
+
+<img class="bioPhoto" src="http://arca.di.uminho.pt/extra/img/photos/lsb.jpg">
+
+<h5><a name="Docente"></a> Docente </h5>
+<ul><li>
+<a href="http://www.di.uminho.pt/~lsb">Luís Soares Barbosa</a>
+</li></ul>
+
+<h5><a name="Avalia_o"></a> Avaliação </h5>
+
+<ul>
+<li> Projecto 1 (40%)
+<li> Prova individual escrita (60%) - Janeiro 2018
+<li> Exame de recurso (60%) - Fevereiro 2018
+<li> As notas finais superiores ou iguais a 19 valores terão que ser defendidas em <u>prova oral</u>.
+</ul>
+
+<h5><a name="Atendimento"></a> Atendimento </h5>
+<ul>
+  <li> Horário: 4ª 10h-12h (por marcação)
+  <li> Marcação: lsb at di dot uminho dot pt
+</ul>
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+</div> <!-- bs-component -->
+</div> <!-- container -->
+
+<!-- FOOTERS -->
+
+<div class="panel-footer" id="wrapper-footer">
+<div id="footer">
+Copyright 2017 – Luís Soares Barbosa 
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="extra/js/bootstrap.min.js"></script>
+<!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+<script>
+
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+  
+  // post-process the tweeter feed.
+  (function ($) {
+    window.setTimeout(function(){
+      $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+    }, 1000);
+
+  })(jQuery);
+
+</script>
+
+</body>
+</html>
+
